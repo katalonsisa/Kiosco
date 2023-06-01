@@ -1,0 +1,152 @@
+{
+  "keywordFileContentHash": "84EB75AEC937DB5D36E045209693E74A",
+  "keywordClasses": [
+    {
+      "name": "util.ConnectionFTP",
+      "keywordMethods": [
+        {
+          "name": "connectAndLogin",
+          "parameters": [
+            {
+              "name": "modulo",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Metodo para conectarse con el ftp y iniciar sesión \u003cbr\u003e la conexion esta determinadad a durar 3 minutos pero se recomienta cerrar sesion al teminar  \r\n\t * @param modulo \u003cbr\u003e modulo donde estan las configuraciones del ftp\r\n\t * @return \u003cb\u003eFTPClient\u003c/b\u003e retorna una conexion al ftp con FTPClient \r\n\t * @throws IOException\r\n\t */"
+        },
+        {
+          "name": "checkFile",
+          "parameters": [
+            {
+              "name": "ftpClient",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.commons.net.ftp.FTPClient",
+                "unresolvedClassName": "FTPClient",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "path",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "document",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "saveFile",
+          "parameters": [
+            {
+              "name": "ftpClient",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.commons.net.ftp.FTPClient",
+                "unresolvedClassName": "FTPClient",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "path",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "document",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "nameDocument",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "CloseConnetion",
+          "parameters": [
+            {
+              "name": "connexion",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.commons.net.ftp.FTPClient",
+                "unresolvedClassName": "FTPClient",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

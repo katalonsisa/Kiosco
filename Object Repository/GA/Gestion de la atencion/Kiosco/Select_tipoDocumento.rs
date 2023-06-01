@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select_tipoDocumento</name>
+   <tag></tag>
+   <elementGuidId>83f7834a-329d-4bba-9f3e-7381d3250176</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'nroDocumento']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>0fe45a54-0a8e-4b58-a66d-8dbdcec42044</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;SD-BACKOFFICE&quot;]/div[2]/div/div/div/div[1]/div/div[2]/div/div/div[2]/div[1]/div[1]/div/select</value>
+      <webElementGuid>cd2fb8bc-ae7b-40cb-bef1-1dc57c66e6b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>nroDocumento</value>
+      <webElementGuid>cba26154-d205-40ab-b06e-0926ebe47534</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

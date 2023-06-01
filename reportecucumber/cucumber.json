@@ -1,0 +1,122 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 11254227423,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que ingreso al portal de GA",
+            "match": {
+              "location": "Kiosco.que_ingreso_al_portal_de_GA()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 49994698209,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selecciono la opcion Kiosco del modulo Gestión de la atención",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kiosco",
+                  "offset": 21
+                },
+                {
+                  "val": "Gestión de la atención",
+                  "offset": 39
+                }
+              ],
+              "location": "Kiosco.selecciono_la_opcion(String,String)"
+            },
+            "keyword": "Y "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Asignar un turno para paz y salvo a un ciudadano",
+        "description": "",
+        "id": "como-funcionario-quiero-realizar-la-asignacion-de-los-turnos;asignar-un-turno-para-paz-y-salvo-a-un-ciudadano",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5326962715,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que solicito un turno y ingreso un documento en el kiosco",
+            "match": {
+              "location": "Kiosco.que_solicito_un_turno_y_ingreso_un_documento_en_el_kiosco()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1225233096,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "el sistema me pida el tipo de servicio seleccion Solicitar paz y salvo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Solicitar paz y salvo",
+                  "offset": 49
+                }
+              ],
+              "location": "Kiosco.el_sistema_me_pida_el_tipo_de_servicio_selecion_solicitar(String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 750585620,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "solicito el turno",
+            "match": {
+              "location": "Kiosco.solicito_el_turno()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Kiosco"
+          }
+        ]
+      }
+    ],
+    "name": "Como funcionario quiero realizar la asignacion de los turnos",
+    "description": "",
+    "id": "como-funcionario-quiero-realizar-la-asignacion-de-los-turnos",
+    "keyword": "Característica",
+    "uri": "Include/features/GA/Gestion de la atencion/Kiosco.feature",
+    "tags": [
+      {
+        "name": "@Kiosco",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Url para el Gestion de la atencion</description>
+      <initValue>'https://qaconsultassimit.fcm.org.co/gestionatencion/login.html'</initValue>
+      <name>urlGA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>usuario para GA</description>
+      <initValue>'MonitoreoGA'</initValue>
+      <name>UserGADefaul</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>password para el usuario de GA</description>
+      <initValue>'85M5Eo$&amp;%0'</initValue>
+      <name>PasswordGADefaul</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>timepo de espera</description>
+      <initValue>3</initValue>
+      <name>delay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1</initValue>
+      <name>shortDelay</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

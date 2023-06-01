@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="68.583907">
+<testcase classname="Como funcionario quiero realizar la asignacion de los turnos" name="Asignar un turno para paz y salvo a un ciudadano" time="68.583907">
+<system-out><![CDATA[Dado que ingreso al portal de GA............................................passed
+Y selecciono la opcion Kiosco del modulo Gestión de la atención.............passed
+Dado que solicito un turno y ingreso un documento en el kiosco..............passed
+Cuando el sistema me pida el tipo de servicio seleccion Solicitar paz y salvo.passed
+Entonces solicito el turno..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
